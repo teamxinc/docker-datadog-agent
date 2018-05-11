@@ -49,4 +49,4 @@ else
 fi
 
 # Finally, run the datadog agent
-/.r/r init
+/.r/r /init
