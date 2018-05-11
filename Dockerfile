@@ -7,6 +7,7 @@ RUN mv /etc/ssl/openssl.cnf.bak /etc/ssl/openssl.cnf
 
 COPY ./start.sh /start.sh
 RUN chmod 755 /start.sh
-WORKDIR /conf.d
+
+WORKDIR /
 
 CMD ["/start.sh"]
